@@ -21,7 +21,7 @@
     </div>
     <!-- Image Slider Starts Here -->
     <div class="slider">
-        <img src="https://source.unsplash.com/random/2200x500/?computer" alt="Image Will be shown here" class="img">
+        <img src="https://source.unsplash.com/random/2200x1000/?computer" alt="Image Will be shown here" class="img">
     </div>
     <div class="br"></div>
     <!-- Image Slider Ends Here -->
