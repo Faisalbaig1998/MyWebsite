@@ -11,12 +11,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Castoro&family=Courgette&family=Merienda&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Exo+2:wght@300;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="header">
-        <p id="italic">Isfan
-        <p id="normal">.com</p>
+        <p id="italic">Isfan.
+        <p id="normal">com</p>
         </p>
     </div>
     <!-- Image Slider Starts Here -->
@@ -25,17 +31,20 @@
     </div>
     <div class="br"></div>
     <!-- Image Slider Ends Here -->
-    <div class="gallery">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+    <div class="newarrival">
+        <h2>
+            New Arrivals
+        </h2>
+        <span class="line"></span>
     </div>
-    
+    <!-- Gallery Start Here -->
+    <div class="gallery">
+        <div class="card">
+            <img src="https://source.unsplash.com/random/200x200/?computer" alt="">
+            <div></div>
+        </div>
+    </div>
+
 </body>
 
 </html>
