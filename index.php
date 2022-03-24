@@ -40,9 +40,16 @@
     <!-- Gallery Start Here -->
     <div class="gallery">
         <div class="card">
-            <img src="https://source.unsplash.com/random/200x200/?computer" alt="">
-            <div></div>
+            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
+            <div class="button">
+                <button>Read More...</button>
+            </div>
+            <div class="card-desc">
+                <p>Desc.....</p>
+            </div>
         </div>
+
+
     </div>
 
 </body>
