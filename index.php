@@ -20,11 +20,10 @@
 </head>
 
 <body>
-    <div class="header">
-        <p id="italic">Isfan.
-        <p id="normal">com</p>
-        </p>
-    </div>
+    <!-- Header Starts Here -->
+    <?php
+    include('components/header.php');
+    ?>
     <!-- Image Slider Starts Here -->
     <div class="slider">
         <img src="https://source.unsplash.com/random/2200x1000/?computer" alt="Image Will be shown here" class="img">
@@ -117,7 +116,7 @@
 
 
     <!-- Footer Starts Here -->
-    <?php 
+    <?php
     include('components/footer.php');
     ?>
 </body>
