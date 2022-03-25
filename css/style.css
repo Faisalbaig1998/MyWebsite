@@ -64,12 +64,14 @@
 }
 
 .gallery {
-  justify-content: space-around;
+  min-height: 800px;
   padding: 25px;
   width: 100%;
   height: auto;
   /* border: 2px solid blue; */
   display: grid;
+  justify-content: space-around;
+  grid-row-gap: 50px;
   grid-template-columns: auto auto auto auto;
 }
 
@@ -132,4 +134,10 @@
   width: 290px;
   height: 5px;
   background-color: rgb(235, 57, 57);
+}
+
+footer{
+  background-color: black;
+  width: 100%;
+  height: 250px;
 }

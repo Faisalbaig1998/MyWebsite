@@ -38,6 +38,7 @@
         <span class="line"></span>
     </div>
     <!-- Gallery Start Here -->
+
     <div class="gallery">
         <div class="card">
             <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
@@ -48,10 +49,77 @@
                 <p>Desc.....</p>
             </div>
         </div>
-
-
+        <div class="card">
+            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
+            <div class="button">
+                <button>Read More...</button>
+            </div>
+            <div class="card-desc">
+                <p>Desc.....</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
+            <div class="button">
+                <button>Read More...</button>
+            </div>
+            <div class="card-desc">
+                <p>Desc.....</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
+            <div class="button">
+                <button>Read More...</button>
+            </div>
+            <div class="card-desc">
+                <p>Desc.....</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
+            <div class="button">
+                <button>Read More...</button>
+            </div>
+            <div class="card-desc">
+                <p>Desc.....</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
+            <div class="button">
+                <button>Read More...</button>
+            </div>
+            <div class="card-desc">
+                <p>Desc.....</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
+            <div class="button">
+                <button>Read More...</button>
+            </div>
+            <div class="card-desc">
+                <p>Desc.....</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
+            <div class="button">
+                <button>Read More...</button>
+            </div>
+            <div class="card-desc">
+                <p>Desc.....</p>
+            </div>
+        </div>
     </div>
+    <!-- Gallery Ends Here -->
 
+
+    <!-- Footer Starts Here -->
+    <?php 
+    include('components/footer.php');
+    ?>
 </body>
 
 </html>
