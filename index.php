@@ -40,75 +40,8 @@
 
     <div class="gallery">
         <div class="card">
-            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
-            <div class="button">
-                <button>Read More...</button>
-            </div>
-            <div class="card-desc">
-                <p>Desc.....</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
-            <div class="button">
-                <button>Read More...</button>
-            </div>
-            <div class="card-desc">
-                <p>Desc.....</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
-            <div class="button">
-                <button>Read More...</button>
-            </div>
-            <div class="card-desc">
-                <p>Desc.....</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
-            <div class="button">
-                <button>Read More...</button>
-            </div>
-            <div class="card-desc">
-                <p>Desc.....</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
-            <div class="button">
-                <button>Read More...</button>
-            </div>
-            <div class="card-desc">
-                <p>Desc.....</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
-            <div class="button">
-                <button>Read More...</button>
-            </div>
-            <div class="card-desc">
-                <p>Desc.....</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
-            <div class="button">
-                <button>Read More...</button>
-            </div>
-            <div class="card-desc">
-                <p>Desc.....</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
-            <div class="button">
-                <button>Read More...</button>
-            </div>
-            <div class="card-desc">
-                <p>Desc.....</p>
+            <div class="card-img">
+                <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
             </div>
         </div>
     </div>
