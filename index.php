@@ -41,7 +41,8 @@
     <div class="gallery">
         <div class="card">
             <div class="card-img">
-                <img src="https://source.unsplash.com/random/250x200/?computer" alt="">
+                <img src="assets/F (2).jpg" alt="">
+                <!-- <img src="https://source.unsplash.com/random/250x200/?computer" alt=""> -->
             </div>
         </div>
     </div>
