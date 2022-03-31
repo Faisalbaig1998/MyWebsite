@@ -41,8 +41,21 @@
     <div class="gallery">
         <div class="card">
             <div class="card-img">
+                <span>&#8249</span>
                 <img src="assets/F (2).jpg" alt="">
+                <span>&#8250</span>
                 <!-- <img src="https://source.unsplash.com/random/250x200/?computer" alt=""> -->
+            </div>
+            <div class="itemname">
+                <h2>Item name</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, quibusdam?</p>
+                <span>Ratings & Review</span>
+            </div>
+            <div class="buynow">
+                <a href="https://www.amazon.in/"><img src="assets/Logos/amazon.png" alt=""></a>
+                <a href="https://www.flipkart.com/"><img src="assets/Logos/flipkart.png" alt=""></a>
+                <a href="https://meesho.com/"><img src="assets/Logos/meesho.png" alt=""></a>
+                <a href="https://wa.me/+918630008596"><img src="assets/Logos/whatsapp.png" alt=""></a>
             </div>
         </div>
     </div>
