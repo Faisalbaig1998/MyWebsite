@@ -47,7 +47,7 @@
                 <!-- <img src="https://source.unsplash.com/random/250x200/?computer" alt=""> -->
             </div>
             <div class="itemname">
-                <h2>Item name</h2>
+                <h3>Item name</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, quibusdam?</p>
                 <span>Ratings & Review</span>
             </div>
@@ -55,7 +55,7 @@
                 <a href="https://www.amazon.in/"><img src="assets/Logos/amazon.png" alt=""></a>
                 <a href="https://www.flipkart.com/"><img src="assets/Logos/flipkart.png" alt=""></a>
                 <a href="https://meesho.com/"><img src="assets/Logos/meesho.png" alt=""></a>
-                <a href="https://wa.me/+918630008596"><img src="assets/Logos/whatsapp.png" alt=""></a>
+                <a href="https://wa.me/+918006286968"><img src="assets/Logos/whatsapp.png" alt=""></a>
             </div>
         </div>
     </div>
