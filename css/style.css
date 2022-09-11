@@ -1,4 +1,6 @@
-* {
+*,
+::after,
+::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -83,6 +85,7 @@
   justify-content: center;
   width: 100%;
   height: 500px;
+  object-fit: contain;
 }
 
 .img {
@@ -113,8 +116,8 @@
   position: relative;
   /* border-radius: 10px; */
   box-shadow: 2px 2px 10px black;
-  width: 250px;
-  height: 400px;
+  width: 280px;
+  height: 420px;
   /* background-color: aqua; */
 }
 
@@ -143,9 +146,9 @@
 
 .card-img img {
   /* border: 2px solid green; */
-  width: 100%;
+  width: 90%;
   height: 100%;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 
 .card-img span {
@@ -174,8 +177,35 @@
   align-items: center;
 }
 
+.mrp {
+  padding: 2px;
+  font-family: "Aboreto", cursive;
+  text-decoration: line-through 3px red;
+}
+
+
+.sellingPrice {
+  font-weight: bold;
+  font-family: "Aboreto", cursive;
+}
+
+.itemname h4 a {
+  color: black;
+  text-decoration: none;
+}
+
+.itemname h4 a:hover {
+  text-decoration: underline;
+}
+
 .itemname span {
   margin-top: 5px;
+}
+
+.itemname h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  color: rgba(128, 128, 128, 0.61);
 }
 
 .buynow {
@@ -250,11 +280,44 @@ footer div div ul li {
 }
 
 footer div div ul h3 {
-  text-decoration: underline red 15%;
+  position: relative;
+  padding-bottom: 0.25rem;
+  /* text-decoration: underline red 15%; */
+  display: inline-block;
   transition: all 0.5s;
 }
 
-footer div div ul h3:hover {
-  cursor: pointer;
-  text-decoration: underline green 15%;
+footer div div ul h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: blue;
+  transition: width 0.5s;
+}
+
+footer div div ul h3:hover::before {
+  width: 100%;
+  color: red;
+}
+
+#product{
+  padding: 10px;
+  justify-content: space-around;
+  min-height: 500px;
+  display: flex;
+  border: 2px solid black;  
+}
+
+.product-view{
+  width: 600px;
+  border: 2px solid red;  
+}
+
+.product-desc{
+  margin-left: 10px;
+  width: 100%;
+  border: 2px solid green;  
 }
